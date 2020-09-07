@@ -1,0 +1,65 @@
+
+body {
+margin: 0;
+ background-image: url("img/wood.jpg");
+ background-repeat: repeat; /*Utilizziamo un immagine a bassa risoluzione ripetuta piu volte in modo da alleggerire la pagina  */
+}
+
+#container{
+margin: 0 auto; /*centriamo il div all'interno del body*/
+width:80%;    /*gli diamo una larghezza uguale all'80% del body (utilizziamo % per renderlo responsive)*/
+}
+
+#logoimg{
+    width:10%; /*resiziamo l'immagine'*/
+}
+
+#titolo{
+    margin: 0px;
+    display: inline-block;
+    font-family: 'Bokor'; /*impostiamo il font inizializzato nel head del html*/
+    color: #ffffff;
+}
+
+button{
+  background-color: #999999;
+  border: none;
+  color: black;
+  border-radius: 4px;
+}
+
+h1{
+ color: #ffffff;
+}
+
+#cerchio{
+    color: #ffffff;
+    background-color: #ff751488;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.box{
+    background-color: rgba(200,200,200,0.7);
+    border-bottom: 2px solid;
+}
+.colonna1{
+    display: inline-block; /*rendiamo i div inline block cosi si posizionano uno accanto all'altro*/
+}
+.colonna2{
+    display: inline-block;
+    color: rgb(60,60,60);
+}
+
+footer{
+    text-align: center; /*Centriamo il footer*/
+}
+
+h2{
+    display: inline-block;
+    color: white;
+}
+
+#firma{
+    color: white;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Esempio Gmail</title>
+        <link rel="stylesheet" href="gmail.css" >
+        <link href='https://fonts.googleapis.com/css?family=Bokor' rel='stylesheet'>
+    </head>
+    <body>
+        <div id=container> <!--utilizziamo un div per centrare la nostra pagina,
+        a sua volta il div sara' diviso in altri 3 divisori header-main-footer
+        per una migliore organizzazione e gestione della pagina-->
+          <header>
+             <img id=logoimg src="img/logo.png" alt="logo Gmail">
+             <h1 id=titolo>Gmail</h1>
+             <p>prova</p>
+              <hr>
+           </header>
+          <main>
+             <input type="text" placeholder="Search">
+             <button type="button" name="button">VAI</button>
+             <h1>You have <span id=cerchio>30</span> unread</h1>
+             <hr>
+             <div class="box">
+                 <div class="colonna1">
+                     <input type="checkbox">
+                     &starf;
+                     <strong>Oggetto della email</strong>
+                 </div>
+                 <div class="colonna2">
+                     <span>- testo della email...</span>
+                 </div>
+             </div>
+             <div class="box">
+                 <div class="colonna1">
+                     <input type="checkbox">
+                     &starf;
+                     <strong>Oggetto della email</strong>
+                 </div>
+                 <div class="colonna2">
+                     <span>- testo della email...</span>
+                 </div>
+             </div>
+             <div class="box">
+                 <div class="colonna1">
+                     <input type="checkbox">
+                     &starf;
+                     <strong>Oggetto della email</strong>
+                 </div>
+                 <div class="colonna2">
+                     <span>- testo della email...</span>
+                 </div>
+             </div>
+             <div class="box">
+                 <div class="colonna1">
+                     <input type="checkbox">
+                     &starf; <!--stella-->
+                     <strong>Oggetto della email</strong>
+                 </div>
+                 <div class="colonna2">
+                     <span>- testo della email...</span>
+                 </div>
+             </div>
+         </main>
+         <footer>
+           <hr>
+           <h2 >GMail</h2>
+           &nbsp <!--spaziatura-->
+           <em id=firma><strong>powered by Francesco</strong></em>
+         </footer>
+        </div>
+    </body>
+</html>
