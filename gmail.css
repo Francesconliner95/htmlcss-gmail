@@ -12,17 +12,18 @@ width:80%;    /*gli diamo una larghezza uguale all'80% del body (utilizziamo % p
 
 #logoimg{
     width:10%; /*resiziamo l'immagine'*/
+    vertical-align: middle;
 }
 
 #titolo{
-    margin: 0px;
+    margin: 0;
     display: inline-block;
     font-family: 'Bokor'; /*impostiamo il font inizializzato nel head del html*/
     color: #ffffff;
-    position: absolute;
+    /* position: absolute;
     top: 8%;
     left: 22%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
 }
 
 button{
@@ -47,8 +48,14 @@ h1{
     background-color: rgba(200,200,200,0.7);
     border-bottom: 2px solid;
 }
+
+.box-unread{
+    background-color: rgba(255,255,255,0.7);
+    border-bottom: 2px solid;
+}
 .colonna1{
     display: inline-block; /*rendiamo i div inline block cosi si posizionano uno accanto all'altro*/
+    width: 35%
 }
 .colonna2{
     display: inline-block;
