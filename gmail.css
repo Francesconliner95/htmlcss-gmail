@@ -19,6 +19,10 @@ width:80%;    /*gli diamo una larghezza uguale all'80% del body (utilizziamo % p
     display: inline-block;
     font-family: 'Bokor'; /*impostiamo il font inizializzato nel head del html*/
     color: #ffffff;
+    position: absolute;
+    top: 8%;
+    left: 22%;
+    transform: translate(-50%, -50%);
 }
 
 button{
